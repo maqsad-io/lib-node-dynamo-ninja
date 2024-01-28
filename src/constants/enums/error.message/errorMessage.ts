@@ -1,0 +1,5 @@
+export enum ErrorMessage {
+  NOT_FOUND = 'NOT_FOUND',
+  CREATE_FAILED = 'CREATE_FAILED',
+  UPDATE_FAILED = 'UPDATE_FAILED',
+}

@@ -1,0 +1,38 @@
+{
+  "name": "dynamo-ninja",
+  "version": "1.0.1",
+  "description": "A type-safe dynamodb client for node.js",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maqsad-io/lib-node-dynamo-ninja.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maqsad-io/lib-node-dynamo-ninja/issues"
+  },
+  "homepage": "https://github.com/maqsad-io/lib-node-dynamo-ninja#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.11",
+    "@types/uuid": "^9.0.8",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.501.0",
+    "@aws-sdk/lib-dynamodb": "^3.501.0",
+    "uuid": "^9.0.1"
+  }
+}
